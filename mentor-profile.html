@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Book a Mentor</title>
+</head>
+<body>
+    <header>
+        <h1>Book a Mentor</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mentors.html">Mentors</a></li>
+                <li><a href="mentor-profile.html">Book a Mentor</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Schedule Your Session</h2>
+        <form id="mentor-form">
+            <label for="mentor-name">Select Mentor:</label>
+            <select id="mentor-name" required>
+                <option value="">Choose a mentor</option>
+                <option value="Dr. Birmohan Singh">Dr. Birmohan Singh</option>
+                <option value="Dr. Damanpreet Singh">Dr. Damanpreet Singh</option>
+                <option value="Dr. Major Singh Goraya">Dr. Major Singh Goraya</option>
+                <option value="Dr. Manoj Sachan">Dr. Manoj Sachan</option>
+                <option value="Dr. Gurjinder Kaur">Dr. Gurjinder Kaur</option>
+                <option value="Dr. Amar Nath">Dr. Amar Nath</option>
+                <option value="Dr. Jagdeep Singh">Dr. Jagdeep Singh</option>
+                <option value="Dr. Manminder Singh">Dr. Manminder Singh</option>
+                <option value="Dr. Preetpal Kaur Buttar">Dr. Preetpal Kaur Buttar</option>
+                <option value="Dr. Tajinder Singh">Dr. Tajinder Singh</option>
+            </select>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" required>
+            <label for="time">Select Time:</label>
+            <input type="time" id="time" required>
+            <button type="submit">Book Mentor</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 SLIET. All Rights Reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
